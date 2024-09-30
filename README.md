@@ -1,3 +1,4 @@
+# Ntunga interior design company database
 
 The Ntunga interior design company  manages various projects for clients. Each project involves multiple design elements such as furniture, fabrics, and colors. The company needs to keep track of clients, projects, design elements, and design teams to streamline their workflow and enhance customer satisfaction. 
 
