@@ -9,7 +9,7 @@ This README provides an overview of The Ntunga interior design company  manages 
 ![Conceptual3](https://github.com/user-attachments/assets/7afddf87-efa2-4072-b125-a1bff10ef0f4)
 ![Conceptual4](https://github.com/user-attachments/assets/3653e548-528c-4c25-ae88-562706991a3e) 
 
-### Screenshots illustration:
+### Screenshots illustrating tables created:
 
 
 ![client](https://github.com/user-attachments/assets/86d3cc02-6bbe-480b-9693-38ebe2909e48) 
