@@ -30,6 +30,8 @@ EndDate date,
 foreign key (clientId) references clients(clientId)
 );
 
+```
+
 2.Inserting values into a table: The SQL INSERT command is used to add new records to a table.
 
 
