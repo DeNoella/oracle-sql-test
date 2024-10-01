@@ -34,16 +34,45 @@ foreign key (clientId) references clients(clientId)
 
 2.Inserting values into a table: The SQL INSERT command is used to add new records to a table.
 
-
-
-
+```sql
+insert into clients values (1,'Mutesi','mutesi1771@gmail.com');
+insert into clients values (2,'Noella','noella1771@gmail.com');
+insert into clients values (3,'ange','ange1771@gmail.com');
+insert into clients values (4,'De','de1771@gmail.com'); 
+insert into projects values(5,'Now space',1);
+insert into projects values(6,'Executive interiors',3);
+insert into projects values(7,'Inspire interiors',4);
+```
 3. Altering a table: You can modify the structure of an existing table using the ALTER TABLE statement. For example, to add a new column:
+
+```sql
+alter table projects
+add projectName varchar(30);
+```
 
 4. Droping/ Deleting a table: To remove a table and all its data, use the DROP TABLE statement and to delete specific records from a table, use the DELETE statement.
 
+```sql 
+drop table projects;
+```
+
+
 5. Retrieving:To retrieve data, you use the SELECT statement. You can specify which columns to retrieve.
 
+```sql
+select c.clientId, c.clientName, p.projectName from clients c join projects p on c.clientId=p.clientId;
+```
+
 6. Updating: To modify existing records, use the UPDATE statement.
+
+```sql 
+update designTeams set teamName='Power Girl' where teamId=16;
+
+```
+7. Transactions: 
+```sql
+commit;
+```
 
 #### Summary:
 These are the fundamental SQL operations you'll commonly use to manage and manipulate data in a relational database. Each command can be enhanced with various clauses and options for more complex queries. If you have any specific questions or need examples of a particular operation, feel free to ask!
